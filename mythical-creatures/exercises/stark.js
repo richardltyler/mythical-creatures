@@ -1,7 +1,7 @@
 class Stark {
-  constructor() {
-    // this.name = name;
-    // this.name = arguments[0].name;
+  constructor(arg = {}) {
+    this.name = arg.name;
+    this.location = arg.area || 'Winterfell';
   }
 }
 
