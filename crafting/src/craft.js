@@ -16,7 +16,7 @@ class Craft {
       acc += material.calculateMaterialCost();
 
       return acc;
-    }, 0)
+    }, 0);
   }
 }
 

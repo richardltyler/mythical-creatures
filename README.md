@@ -39,7 +39,7 @@ Completing all of these test suites is not necessary, but you should be working 
 - [x] 🧚 ‍[Mythical Creatures](./mythical-creatures)
 - [x] ⛳️ [Golf Course](./golf-course)
 - [x] 🛹 [Skate Park](./skate-park)
-- [ ] 🧶 [Crafting](./crafting)
+- [x] 🧶 [Crafting](./crafting)
 - [ ] 🍫 [Vending Machine](./vending-machine)
 - [ ] 🏃🏻‍♀️ [Road Race](./roadrace)
 - [ ] ⛷ [Ski Lift](./ski-lift)
