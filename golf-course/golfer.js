@@ -10,12 +10,9 @@ class Golfer {
     return `I usually shoot a ${this.handicap + par} on average.`;
   }
 
-  playRound(course) {
-    if (course.difficulty === 'hard') {
-      this.frustration += 500;
-    } else if (course.difficulty === 'moderate') {
-      this.frustration += 100;
-    }
+  playRound({ difficulty }) {
+    difficulty === 'hard' ? this.frustration += 500
+      : this.frustration += 100;
   }
 
   hitTheRange() {

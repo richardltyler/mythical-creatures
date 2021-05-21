@@ -15,6 +15,7 @@ class GolfCourse {
       this.openings -= group.length;
 
       return 'You\'re checked in. Have fun!';
+      
     } else {
       return 'Sorry, we are currently booked! Please come back later.';
     }
