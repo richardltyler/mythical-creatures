@@ -24,18 +24,17 @@ class VendingMachine {
         ? this.dispenseSnack(snackToPurchase, cost)
         : 'Sorry, no items in stock. Try another item.'
     );
-
-  }
+  };
 
   dispenseSnack(snackToPurchase, cost) {
     let change = 0;
+
     if (snackToPurchase.price < cost) {
       this.snacks = this.snacks.reduce((acc, snack) => {
         if (snack.name === snackToPurchase.name) {
-          snack.itemsInStock--;
-        }
-  
-        change = cost - snack.price;
+          snack.removeItem();
+          change = cost - snack.price;
+        };
   
         acc.push(snack);
         return acc;
@@ -45,9 +44,8 @@ class VendingMachine {
 
     } else {
       return 'Sorry, not enough payment. Please add more money.';
-    }
-
-  }
+    };
+  };
 };
 
 module.exports = VendingMachine;
