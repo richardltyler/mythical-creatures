@@ -7,7 +7,7 @@ class Ogre {
 
   encounter(human) {
     human.beEncountered(this);
-  }
+  };
 
   swingAt(human) {
     this.swings++
@@ -15,11 +15,11 @@ class Ogre {
     this.swings % 2 === 0 
     && this.swings > 0
     && (human.knockedOut = true);
-  }
+  };
 
   apologize(human) {
     human.knockedOut = false;
-  }
+  };
 };
 
 module.exports = Ogre;
