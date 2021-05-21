@@ -8,14 +8,12 @@ class GolfCourse {
   }
 
   checkInGroup(group) {
-    const names = group.map(golfer => golfer.name).reverse();
-
     if (this.currentlyPlaying.length < this.openings) {
-      this.currentlyPlaying = [ ...names, ...this.currentlyPlaying];
+      group.forEach(golfer => this.currentlyPlaying.unshift(golfer.name))
       this.openings -= group.length;
 
       return 'You\'re checked in. Have fun!';
-      
+
     } else {
       return 'Sorry, we are currently booked! Please come back later.';
     }
