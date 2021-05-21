@@ -14,6 +14,7 @@ class Snack {
       this.itemsInStock--;
   
       return `Item taken! There are now ${this.itemsInStock} items left.`;
+      
     } else {
       return `Sorry, no ${this.name} left in stock!`
     }

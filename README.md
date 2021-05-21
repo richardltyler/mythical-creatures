@@ -40,7 +40,7 @@ Completing all of these test suites is not necessary, but you should be working 
 - [x] ⛳️ [Golf Course](./golf-course)
 - [x] 🛹 [Skate Park](./skate-park)
 - [x] 🧶 [Crafting](./crafting)
-- [ ] 🍫 [Vending Machine](./vending-machine)
+- [x] 🍫 [Vending Machine](./vending-machine)
 - [ ] 🏃🏻‍♀️ [Road Race](./roadrace)
 - [ ] ⛷ [Ski Lift](./ski-lift)
 - [ ] ⛄️ [Snowman](./do-you-wanna-build-a-snowman)
