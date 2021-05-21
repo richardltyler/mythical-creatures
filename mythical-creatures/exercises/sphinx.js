@@ -14,18 +14,16 @@ class Sphinx {
 
   attemptAnswer(answer) {
     const startingRiddles = this.riddles;
-
     this.riddles = startingRiddles.filter(riddle => riddle.answer !== answer);
 
-    if (startingRiddles.length !== this.riddles.length) {
-      return this.riddles.length > 0 ? 
-        'That wasn\'t that hard, I bet you don\'t get the next one' 
-        : `PSSSSSSS THIS HAS NEVER HAPPENED, HOW DID YOU KNOW THE ANSWER WAS \"${answer}\"???`;
-
-    } else {
-      this.heroesEaten++;
-    };
+    return startingRiddles.length !== this.riddles.length ? this.respondToAnswer(answer) 
+      : this.heroesEaten++;
   };
+
+  respondToAnswer(answer) {
+    return this.riddles.length > 0 ? 'That wasn\'t that hard, I bet you don\'t get the next one' 
+      : `PSSSSSSS THIS HAS NEVER HAPPENED, HOW DID YOU KNOW THE ANSWER WAS \"${answer}\"???`;
+  }
 }
 
 module.exports = Sphinx;
