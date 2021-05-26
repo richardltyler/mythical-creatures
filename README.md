@@ -42,7 +42,7 @@ Completing all of these test suites is not necessary, but you should be working 
 - [x] 🧶 [Crafting](./crafting)
 - [x] 🍫 [Vending Machine](./vending-machine)
 - [x] 🏃🏻‍♀️ [Road Race](./roadrace)
-- [ ] ⛷ [Ski Lift](./ski-lift)
+- [x] ⛷ [Ski Lift](./ski-lift)
 - [ ] ⛄️ [Snowman](./do-you-wanna-build-a-snowman)
 - [ ] 🚀 [Spaceport](./spaceport)
 - [ ] 🎃 [Trick or Treat](./trick-or-treat)
