@@ -47,7 +47,7 @@ Completing all of these test suites is not necessary, but you should be working 
 - [x] 🚀 [Spaceport](./spaceport)
 - [x] 🎃 [Trick or Treat](./trick-or-treat)
 - [ ] 🍔 [Lunch Box](./lunchbox)
-- [ ] 🏞 [Oregon Trail](./oregon-trail)
+- [x] 🏞 [Oregon Trail](./oregon-trail)
 - [ ] 🔮 [Wizarding Arrays](./wizarding-arrays)
 - [ ] ⚡️ [Wizarding Objects](./wizarding-objects)
 
