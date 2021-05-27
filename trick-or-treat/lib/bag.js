@@ -7,11 +7,18 @@ class Bag {
 
   fill(candy) {
     this.candies.push(candy);
+    this.empty = false;
     this.count++;
   };
 
   contains(candyType) {
     return this.candies.some(candy => candy.type === candyType);
+  };
+
+  removeCandy() {
+    this.count--;
+    this.candies.shift();
+    this.empty = !!this.candies ? false : true;
   };
 };
 
