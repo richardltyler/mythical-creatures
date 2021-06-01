@@ -18,10 +18,8 @@ class LunchBox {
         && acc.push(snack.type);
       
       return acc;
-    }, [])
-
-
-  }
-}
+    }, []);
+  };
+};
 
 module.exports = LunchBox;
