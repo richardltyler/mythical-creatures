@@ -39,7 +39,7 @@ describe('A wizard\'s potions cabinet and potions', () => {
     });
   });
 
-  describe.only('A potion cabinet', () => {
+  describe('A potion cabinet', () => {
 
     it('keeps all potions', () => {
       const cabinet = new Cabinet();
