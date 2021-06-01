@@ -5,25 +5,25 @@ const Potion = require('../lib/potion');
 describe('A wizard\'s potions cabinet and potions', () => {
 
   describe('A potion', () => {
-    it.skip('has a name', () => {
+    it('has a name', () => {
       const potion = new Potion('truth serum');
 
       assert.equal(potion.name, 'truth serum');
     });
 
-    it.skip('indicates rareness by integers, 0 being not rare', () => {
+    it('indicates rareness by integers, 0 being not rare', () => {
       const potion = new Potion('truth serum', 5);
 
       assert.equal(potion.rareness, 5);
     });
 
-    it.skip('is not rare by default', () => {
+    it('is not rare by default', () => {
       const potion = new Potion('truth serum');
 
       assert.equal(potion.rareness, 0);
     });
 
-    it.skip('indicates whether or not it is rare', () => {
+    it('indicates whether or not it is rare', () => {
       // note: potions with a `rareness` score above 7 count as rare potions.
       const potion1 = new Potion('truth serum', 0);
       assert.equal(potion1.isRare(), false);
