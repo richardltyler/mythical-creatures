@@ -3,7 +3,6 @@ class Wizard {
     this.name = name;
     this.pets = [];
     this.petsCount = 0;
-    // this.wand;
   };
 
   adoptPet(pet) {
@@ -23,7 +22,7 @@ class Wizard {
       return acc;
     }, []);
 
-    return petList.join(' ')
+    return petList.join(' ');
   };
 
   getWand(wand) {
@@ -32,7 +31,7 @@ class Wizard {
 
   castSpell(spell) {
     return this.wand.cast(spell);
-  }
+  };
 };
 
 module.exports = Wizard;

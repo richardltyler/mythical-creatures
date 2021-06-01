@@ -7,7 +7,7 @@ class Wand {
 
   cast(spell) {
     return `Casting ${spell}!`;
-  }
+  };
 };
 
 module.exports = Wand;
